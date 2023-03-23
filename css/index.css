@@ -9,6 +9,7 @@
 body {
   background-color: black;
   font-family: 'Lato', sans-serif;
+  
 }
 
 button {
@@ -19,11 +20,17 @@ button {
 
 /* Regole header */
 
+header {
+  height: 5vh;
+  text-align: right;
+  padding-top: 5px;
+  position: relative;
+}
+
 .option {
-  position: fixed;
   top: 20px;
-  right: 20px;
-  padding: 20px;
+  right: 30px;
+  position: absolute;
   z-index: 99;
 }
 
@@ -31,14 +38,13 @@ button {
   color: white;
   background-color: rgb(74, 74, 74);
   border-radius: 10px;
-  padding: 5px;
 }
 
 /* Regola main */
 
 main {
-  height: 100vh;
-  margin-bottom: 300px;
+  height: 85vh;
+  overflow: auto;
 }
 
 /* Regole righe webcam */
@@ -61,7 +67,6 @@ main {
   color: white;
   position: absolute;
   bottom: 20px;
-  left: 0;
   padding: 2px;
   background-color: rgb(74, 74, 74);
 }
@@ -69,12 +74,14 @@ main {
 
 /* Regole footer */
 
+footer {
+  height: 10vh;
+}
+
 .setting {
-  position: fixed;
-  bottom: 0;
+  height: 100%;
   display: flex;
   justify-content: space-between;
-  width: 100%;
   background-color: rgb(34, 34, 34);
 }
 
@@ -110,7 +117,21 @@ main {
 }
 
 /* DEBUG */
+/* header {
+  background-color: brown;
+} */
+/* main {
+  background-color: violet;
+} */
 
+/* main {
+  background-color: blue;
+} */
+
+/* .row {
+  height: 300px;
+  background-color: green;
+} */
 /* .option {
   background-color: blue;
 } */
