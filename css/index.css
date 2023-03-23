@@ -1,11 +1,105 @@
+/* Regole generali */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Regole header */
+
+header {
+  margin-top: 40px;
+  position: relative;
+}
+
+.option {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+}
+
+.option > button {
+  color: white;
+  background-color: rgb(74, 74, 74);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+}
+
+/* Regola main */
+
+
+/* Regole footer */
+
+footer {
+  height: 90px;
+  position: relative;
+}
+
+.setting {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 0px;
+  background-color: rgb(34, 34, 34);
+}
+
+.setting button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.fa-share-from-square {
+  color: green;
+}
+
+.fa-chevron-up {
+  font-size: 15px;
+}
+
+.setting h6 {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+#exit {
+  background-color: rgb(74, 74, 74);
+}
+
+#exit > button {
+  height: 100%;
+  width: 100%;
+  color: red;
+}
+
 
 /* DEBUG */
-body {
+
+/* .option {
+  background-color: blue;
+} */
+
+/* .setting {
   background-color: violet;
-}
+} */
