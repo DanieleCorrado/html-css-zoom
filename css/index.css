@@ -63,6 +63,10 @@ main {
   position: relative;
 }
 
+img {
+  width: 100%;
+}
+
 .info {
   color: white;
   position: absolute;
@@ -75,7 +79,7 @@ main {
 /* Regole footer */
 
 footer {
-  height: 10vh;
+  height: 90px;
 }
 
 .setting {
